@@ -1,0 +1,3 @@
+project=orders
+test=rspec
+template=erb

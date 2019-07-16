@@ -1,0 +1,17 @@
+<%=
+  form_for :signin, routes.signin_path do
+    div do
+      label :email
+      email_field :email
+    end
+
+    div do
+      label :password
+      password_field :password
+    end
+
+    div do
+      submit "Sign in"
+    end
+  end
+%>
