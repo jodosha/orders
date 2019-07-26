@@ -3,8 +3,8 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "hanami-validations", "~> 2.0.alpha", git: "https://github.com/hanami/validations.git", branch: "unstable"
-gem "hanami",             "~> 1.3",       git: "https://github.com/hanami/hanami.git",      branch: "master"
+gem "hanami-validations", "~> 2.0.alpha"
+gem "hanami",             "~> 1.3"
 
 gem "rom",     "~> 5.0"
 gem "rom-sql", "~> 3.0"
