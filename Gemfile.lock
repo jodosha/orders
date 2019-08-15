@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/hanami/webconsole.git
+  revision: a50228b2e5a13c281d65db748d041539abdd6cf1
+  specs:
+    hanami-webconsole (0.2.0)
+      better_errors (~> 2.4)
+      binding_of_caller (~> 0.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,9 +113,6 @@ GEM
     hanami-view (1.3.1)
       hanami-utils (~> 1.3)
       tilt (~> 2.0, >= 2.0.1)
-    hanami-webconsole (0.2.0)
-      better_errors (~> 2.4)
-      binding_of_caller (~> 0.8)
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -184,7 +189,7 @@ DEPENDENCIES
   dotenv (~> 2.4)
   hanami (~> 1.3)
   hanami-validations (~> 2.0.alpha)
-  hanami-webconsole
+  hanami-webconsole!
   rake
   rom (~> 5.0)
   rom-sql (~> 3.0)
